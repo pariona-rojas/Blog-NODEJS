@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <%- include('partials/head')%>
+</head>
+<body>
+    <%- include('partials/navigation')%>
+    <header class="container vh-50 d-flex justify-content-center align-item-center">
+    </header>
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <img src="/img/hospital.png" alt="" class="image-fluid w-25">
+        <h1 class="display-4 my-5 text-uppercase fw-bold"><%=title%></h1>
+        <a href="/especialidades" class="btn btn-primary w-25">Especialidades</a>
+    </div>
+    <main>
+        Para el desarrollo de este resumen se tuvo en cuenta a la norma técnica de salud del Perú para hospitales
+    de nivel 2, a continuacion se hace un breve recuento de las solicitaciones generales de esta norma:
+    <ul>
+        <li>
+            El area libre debe ser no menor al 30% del area total y el aparcamiento será el 6% del área 
+            techada
+        </li>
+        <li>
+            Los corredores de circulacion interior deben tener un ancho mínimo de 2.4m entre muros
+        </li>
+        <li>
+            En emergencia el ancho del corredor entre a topico sera mayor a 2.8m, en el centro quirurgico el 
+            corredor entre la zona semirrigida y la zona rigida será mayor a 3.2m y el corredor entre emergencia
+            será mayor a 2.8m
+        </li>
+        <li>
+            Los corredores de circulación exterior tendran un ancho mayor a 1.5m, mientras que los corredores
+            externos de uso del personal seran de minimo 1m
+        </li>
+        <li>
+            La escalera integrada tendrá un ancho mínimo de 1.8m con barandas de 0.9m, y la escalera de 
+            evacuación tendrá un ancho mínimo de 1.2m, todas las escaleras serán de material antideslizante
+            con paso de: 28-30cm y contrapaso de: 16-17cm
+        </li>
+        <li>
+            El ancho mínimo de las rampas será de 1.25m y con una pendiente de 12% como maximo y los ascensores
+            son obligatorios en hospitales de 2 pisos o mas
+        </li>
+        <li>
+            El area previo a un ascensor o escalera deber de 3 metros 
+        </li>
+        <li>
+            En los corredores la altura libre interior será mayor a los 3m del NPT hasta el cielo raso, 
+            siendo la altura total de 4m para el paso de los sistemas de ventilación, este ducto de ventilación
+            tendrá como mínimo 
+        </li>
+        <li>
+            Debe haber un cuarto de limpieza por cada 400m2 de área techada
+        </li>
+        <li>
+            El tamaño de la disposicion de los residuos sólidos será de  0.004m3/m2 de área techada
+        </li>
+        <li>
+            El techo debe ser de losa aligerada con una pendiente mayor a 20° en la sierra
+        </li>
+        <li>
+            La altura del vano de una puerta debe ser como mínimo de 2.10m y con protección de acero inoxidable 
+            a la altura de 1m para proteccion contra las camillas
+        </li>
+        <li>
+            Las puertas del ambiente de internamiento u observacion deben contar con una mirilla de 20x60cm minimo,
+            también las puertas de las gestantes y discapacitados debern abrir hacia afuera y su cerradura será 
+            de tipo palanca
+        </li>
+        <li>
+            El área de iluminación será el 20% del ambiente y el área de ventilación se considera el 50% del 
+            area total de las ventanas; en la sierra el area de los vanos del ambiente será el 15% del piso 
+            del ambiente
+        </li>
+        <li>
+            La distancia máxima para recorrer a un servicio sanitario será de 50m en todo el hospital
+        </li>
+        <li>
+            Los sistemas de control de paso de agua serán de cierre automático o de válvula fluxométrica y las
+            puertas de los SSHH serán de cierre automático
+        </li>
+        <li>
+            El tipo de piso a implementarse serán; PEIII(casa materna, residencia médica, administración,
+            gestión) y PEIV (todas las UPS de segundo nivel de atención, lavandería, nutrición y dietética, 
+            gestión de los residuos sólidos, sala de uso múltiple)
+        </li>
+        <li>
+            Los cuartos de limpieza tiene zocalos de 1.5m de altura
+        </li>
+        <li>
+            El cerco perimétrico debe ser mayor a los 2.4m de altura
+        </li>
+        <li>
+            A lo largo de todas las infraestructuras se deben de considerar veredas perímetrales y zocalos de 60cm como mínimo
+        </li>
+        <li>
+            Se debe de contar con una adecuada señalética a lo largo de todo el sistema hospitalario
+        </li>
+        <li>
+            La separación mínima entre las estructuras serán de 5cm como mínimo
+        </li>
+        <li>
+            Contra incendios el concreto estructural debe durar como mínimo 4 horas, en tanto que los muros
+            de albañilería deben de durar como minimo 2 horas como mínimo
+        </li>
+        <li>
+            El almacenamiento de agua fria debe contemplar como mínimo 2 dias de consumo diario
+        </li>
+        <li>
+            En la unidad dental se debe de contemplar puntos de acceso a una distancia no mayor a 1m
+        </li>
+        <li>
+            Las tuberías de oxígeno deberían ser de cobre sin costuras de tipo K, y los puntos de oxígeno
+            deberán distribuirse en: Hospitalización, cuidados intensivos, emergencia, centro obstétrico, 
+            centro quirúrgico y patología clínica
+        </li>
+        <li>
+            El sistema de filtrado de aire comprimido será capaz de filtrar 150cmf @ 100 psig
+        </li>
+        <li>
+            La presión será positiva en la sala de operaciones, sala de partos, sala de procedimientos, almacén de
+            material estéril, bioquímica, entre otros
+        </li>
+        <li>
+            La presión será negativa en las salas de aislamiento, servicios higiénicos, sala de necropsias, histología,
+            citología, microbiología, endoscopia digestiva, entre otros
+        </li>
+        <li>
+            Las áreas minimas para los siguientes espacios complementarios serán de: sala de administración (9m2), 
+            sala de control eléctrico (6m2), central de vigilancia y seguridad (9m2), central de comunicaciones y 
+            centro de computo (12m2), soporte informático (12m2), y tambien recordar que la velocidad mínima de 
+            transmisión de internet será de 10Gbps
+        </li>
+    </ul> 
+    </main>
+    <%- include('partials/footer')%>
+</body>
+</html>

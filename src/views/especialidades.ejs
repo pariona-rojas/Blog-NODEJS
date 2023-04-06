@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <%- include('partials/head')%>
+</head>
+<body>
+    <%- include('partials/navigation')%>
+    <h1 class="display-3"><%=title%></h1>
+    Se detallan las especificaciones del área de emergencias:
+    <main>
+        <section>
+            <h2 class="display-5">Cirugía</h2>
+            <ul>
+                <li>
+                    Se debe contar con un área extra de 50m2 para 
+                    ampliaciones de emergencias
+                </li>
+                <li>
+                    Para sala de observación de emergencia y unidad de 
+                    vigilancia intensiva se tendrá una capacidad de 2 a 
+                    6 camas de observación por sala o unidad
+                </li>
+            </ul>
+        </section>
+    </main>
+    <%- include('partials/footer')%>
+</body>
+</html>
